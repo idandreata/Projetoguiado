@@ -2,6 +2,13 @@ body {
     margin: 0px;
 }
 
+.cabecalho {
+    background: -o-linear-gradient(45deg, #fff, #3f51b3);
+    padding: 15px;
+}
+
+menu {}
+
 .title {
     background-color: aqua
 }
