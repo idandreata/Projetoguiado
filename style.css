@@ -41,3 +41,12 @@ body {
 .lista tr td {
     padding: 5px;
 }
+@media screen and (max-width: 420px) {
+    .lista {
+        width: auto;
+        box-sizing: border-box;
+        background-color: wheat;
+    }
+    .formulario .linha-formulario {
+        margin-bottom: 15px;
+    }

@@ -22,30 +22,33 @@
             CADASTRAR 
         </a>
     </section>
-    <form class="formulario">
-        <div class="linha-formulario">
-            <label class="label-grande" for="nome">Nome:</label>
-            <input name="nome" id="nome" required type="text" />
-        </div>
-        <div class="linha-formulario">
-            <label class="label-grande" for="telefone">Telefone: </label>
-            <input name="nome" id="Telefone" required type="text" />
-        </div>
-        <div class="linha-formulario" style="display: flex;">
-            <label class="label-grande">Experiencia previa:</label>
-            <div style="display:inline-block; width:40%;">
-                <input type="radio" name="Experiencia" id="Experiencia-SIM" />
-                <label for="Experiencia-SIM">
-                    SIM
-                </label>
-                <br/>
-                <input type="radio" name="Experiencia" id="Experiencia-NAO" />
-                <label for="Experiencia-NAO">
-                    NAO
-                </label>
+    <section>
+        <form class="formulario">
+            <div class="linha-formulario">
+                <label class="label-grande" for="nome">Nome:</label>
+                <input name="nome" id="nome" required type="text" />
             </div>
-        </div>
-        <input type="submit" valor="SALVAR">
-    </form>
+            <div class="linha-formulario">
+                <label class="label-grande" for="telefone">Telefone: </label>
+                <input name="nome" id="Telefone" required type="text" />
+            </div>
+            <div class="linha-formulario" style="display: flex;">
+                <div class="div-class">
+                    <label class="label-grande">Experiencia previa:</label>
+                    <input type="radio" name="Experiencia" id="Experiencia-SIM" />
+                    <label for="Experiencia-SIM">
+                    SIM
+                    </label>
+                    <br/>
+                    <input type="radio" name="Experiencia" id="Experiencia-NAO" />
+                    <label for="Experiencia-NAO">
+                    NAO
+                    </label>
+                </div>
+            </div>
+            <input type="submit" valor="SALVAR">
+        </form>
     </section>
 </body>
+
+</html>
